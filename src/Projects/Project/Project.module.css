@@ -1,0 +1,61 @@
+.project {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 50px;
+}
+
+
+.imgContainer {
+    position: relative;
+    display: flex;
+
+}
+
+.imgContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.imgContainer .button:hover {
+    background-color: black;
+}
+
+.button {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 12px;
+    padding: 12px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.textContainer {
+    width: 250px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+}
+
+.name {
+    margin-top: 10px;
+    width: 230px;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.description {
+    width: 230px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid;
+}
