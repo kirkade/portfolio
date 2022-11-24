@@ -1,0 +1,48 @@
+.contactsBlock{
+    height: 100vh;
+    background-color: darkseagreen;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contacts{
+    margin-top: 10%;
+    width: 50%;
+    border: 1px solid;
+    padding: 10px;
+
+}
+
+.form input {
+    margin-bottom: 5px;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.form input::placeholder {
+   padding-left: 10px;
+}
+
+.submit {
+    margin: 15px auto;
+    width: 50%;
+    height: 40px;
+}
+
+.textarea {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+}
+
+
+.form textarea::placeholder {
+    padding-left: 10px;
+    padding-top: 10px;
+}

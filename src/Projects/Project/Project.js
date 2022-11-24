@@ -13,7 +13,6 @@ export const Project = (props) => {
                 <div className={styles.name}>{props.name}</div>
                 <div className={styles.description}>{props.description}</div>
             </div>
-
         </div>
     );
 };

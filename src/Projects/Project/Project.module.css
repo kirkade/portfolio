@@ -1,10 +1,11 @@
 .project {
-    width: 300px;
+    width: 40%;
     display: flex;
     flex-direction: column;
-
     text-align: center;
-    padding: 50px;
+
+    border: 1px solid;
+
 }
 
 
@@ -39,7 +40,7 @@
 }
 
 .textContainer {
-    width: 250px;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -47,15 +48,19 @@
 }
 
 .name {
+    background-color: peachpuff;
     margin-top: 10px;
-    width: 230px;
-    padding: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid;
 }
 
 .description {
-    width: 230px;
+    background-color: gainsboro;
+    width: 100%;
     margin-top: 10px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px solid;
 }
