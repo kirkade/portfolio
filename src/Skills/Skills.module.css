@@ -11,18 +11,8 @@
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
-
 }
 
-.title {
-
-}
-
-@media (min-width: 500px) {
-    .skills {
-
-    }
-}
 
 .skills {
     border: 1px solid;
