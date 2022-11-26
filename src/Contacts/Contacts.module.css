@@ -1,8 +1,8 @@
 .contactsBlock{
-    height: 100vh;
+    min-height: 100vh;
     background-color: darkseagreen;
     padding-top: 100px;
-    padding-bottom: 100px;
+
 }
 
 .contactsContainer {
@@ -15,7 +15,7 @@
     width: 50%;
     border: 1px solid;
     padding: 10px;
-
+    margin-bottom: 50px;
 }
 
 .form input {

@@ -1,10 +1,11 @@
 
 
 .skillsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: khaki;
     padding-top: 100px;
     padding-bottom: 100px;
+
 }
 
 .skillsContainer {
@@ -14,11 +15,13 @@
 }
 
 .title {
-    color: red;
+
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
+    .skills {
 
+    }
 }
 
 .skills {
@@ -27,6 +30,5 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 

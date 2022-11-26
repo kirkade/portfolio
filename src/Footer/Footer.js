@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={`${styleContainer.container} ${styles.footerContainer}`}>
-                <h3>Kirill Kadegrob</h3>
+                <h3 style={{backgroundColor:'aquamarine'}}>Kirill Kadegrob</h3>
                 <div className={styles.links}>
                     <div className={styles.link}>
                         <img src="" alt="inst"/>

@@ -1,8 +1,7 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: chocolate;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .projectsContainer {
@@ -17,4 +16,5 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }

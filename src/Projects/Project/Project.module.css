@@ -1,43 +1,32 @@
 .project {
-    width: 40%;
+    width: 500px;
     display: flex;
     flex-direction: column;
     text-align: center;
-
     border: 1px solid;
-
 }
 
 
 .imgContainer {
-    position: relative;
-    display: flex;
-
-}
-
-.imgContainer img {
     width: 100%;
-    height: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images-platform.99static.com//cU0qBaO133OuhkyLKG1l25ZX9As=/138x129:869x860/fit-in/590x590/99designs-contests-attachments/84/84068/attachment_84068886');
+    background-size: cover;
+    background-position: center;
 }
 
-.imgContainer .button:hover {
-    background-color: black;
+
+.imgContainer a {
+    background-color: cadetblue;
+    padding: 5px 15px;
+    outline: none;
+    text-decoration: none;
+    color: black;
 }
 
-.button {
-    position: absolute;
-    top: 90%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 12px;
-    padding: 12px 50px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
 
 .textContainer {
     width: 100%;
