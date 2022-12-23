@@ -1,7 +1,9 @@
 .header {
     height: 80px;
-    background-color: darksalmon;
+    background-color: white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }

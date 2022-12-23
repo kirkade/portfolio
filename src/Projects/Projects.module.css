@@ -1,20 +1,30 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: chocolate;
+    background-color: #f9f9f9;
     padding-top: 100px;
+    font-family:  "Poppins", sans-serif;
 }
 
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
+}
 
+.pageTitle {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
 }
 
 .projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+}
 
+@media screen and (max-width: 1000px) {
+    .projects {
+        justify-content: center;
+    }
 }

@@ -8,10 +8,12 @@ export const Projects = () => {
     return (
         <div className={styles.projectsBlock}>
             <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
-                <h2 style={{backgroundColor:'aquamarine'}}> My projects</h2>
+                <div className={styles.pageTitle}>
+                    <h2> My projects</h2>
+                </div>
                 <div className={styles.projects}>
-                    <Project title={'My first project name'} description={'Description of the first project'} />
-                    <Project title={'My second project name'} description={'Description of the second project'} />
+                    <Project title={'Development'} description={'Todolist'} />
+                    <Project title={'Development'} description={'Social Network'} />
                 </div>
 
             </div>

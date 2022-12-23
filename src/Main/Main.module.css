@@ -1,11 +1,13 @@
+
 .mainBlock {
-    height: 100vh;
-    background-color: cadetblue;
+    min-height: 80vh;
+    background: #f9f9f9;
 }
+
 
 .container {
     border: 1px solid;
-    height: 100%;
+    min-height: 100%;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -14,13 +16,68 @@
 }
 
 .greetings {
-    width: 400px;
-    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height:  2em;
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1150px){
+    .greetings {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+.greetings h1 span {
+    color: #FD4766;
+
+}
+
+.greetings h2 {
+    font-size: 30px;
+    color: rgba(29,29,36,.75);
+    margin-top: 20px;
+}
+
+.welcome {
+    color: #1f1f25;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-family:  "Poppins", sans-serif;
 }
 
 .photo {
-    width: 300px;
-    height: 500px;
-    background-color: antiquewhite;
+    margin-left: 10vw;
 }
+
+@media screen and (max-width: 1500px){
+    .photo {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+}
+.photo img {
+    border-radius: 100%;
+    padding: 0;
+    border: 14px solid #fff;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1), 0 20px 40px rgba(255,255,255,0.15);
+}
+
+
 

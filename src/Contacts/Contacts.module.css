@@ -1,8 +1,7 @@
 .contactsBlock{
     min-height: 100vh;
-    background-color: darkseagreen;
+    background-color: white;
     padding-top: 100px;
-
 }
 
 .contactsContainer {
@@ -10,10 +9,15 @@
     justify-content: flex-start;
 }
 
+.pageTitle {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
 .contacts{
     margin-top: 10%;
     width: 50%;
-    border: 1px solid;
     padding: 10px;
     margin-bottom: 50px;
 }

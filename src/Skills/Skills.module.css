@@ -1,11 +1,11 @@
 
 
 .skillsBlock {
-    min-height: 100vh;
-    background-color: khaki;
+    min-height: 70vh;
+    background-color: white;
     padding-top: 100px;
     padding-bottom: 100px;
-
+    font-family: "Poppins", sans-serif;
 }
 
 .skillsContainer {
@@ -15,10 +15,15 @@
 
 
 .skills {
-    border: 1px solid;
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
 }
 

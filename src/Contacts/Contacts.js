@@ -7,7 +7,10 @@ export const Contacts = () => {
     return (
         <div className={styles.contactsBlock}>
             <div className={`${styleContainer.container} ${styles.contactsContainer}`}>
-                <h2 style={{backgroundColor: 'aquamarine'}}> Contact me</h2>
+                <div className={styles.pageTitle}>
+                    <h2> Contact me</h2>
+                </div>
+
 
                 <div className={styles.contacts}>
                     <form action="" method="get" className={styles.form}>
